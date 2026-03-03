@@ -16,13 +16,15 @@ java {
     withJavadocJar()
 }
 
-
+var lombokVersion ="1.18.34"
+var jakartaVersion ="3.1.0"
+var jupiterVersion ="3.1.0"
 dependencies {
 
-    api("jakarta.ws.rs:jakarta.ws.rs-api:3.1.0")
-    compileOnly("org.projectlombok:lombok:1.18.34")
-    annotationProcessor("org.projectlombok:lombok:1.18.34")
-    testImplementation("org.junit.jupiter:junit-jupiter:5.10.2")
+    api("jakarta.ws.rs:jakarta.ws.rs-api:${jakartaVersion}")
+    compileOnly("org.projectlombok:lombok:${lombokVersion}")
+    annotationProcessor("org.projectlombok:lombok:${lombokVersion}")
+    testImplementation("org.junit.jupiter:junit-jupiter:${jupiterVersion}")
 }
 
 group = "cplx-commons-lib"
