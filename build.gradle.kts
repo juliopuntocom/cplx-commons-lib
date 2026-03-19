@@ -18,7 +18,7 @@ java {
 
 var lombokVersion ="1.18.34"
 var jakartaVersion ="3.1.0"
-var jupiterVersion ="3.1.0"
+var jupiterVersion ="5.11.4"
 dependencies {
 
     api("jakarta.ws.rs:jakarta.ws.rs-api:${jakartaVersion}")

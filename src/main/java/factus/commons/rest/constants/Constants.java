@@ -403,9 +403,9 @@ public final class Constants {
     /*** ID_PACKAGE_IS_REQUIRED */
     public static final String  ID_PACKAGE_IS_REQUIRED= "id_package requerido";
     /*** FILE_RECIVED */
-    public static final String  FILE_RECIVED= "Archivo recibido. Enrutamiento asíncrono iniciado.";
+    public static final String  FILE_RECIVED= "Archivo recibido. iniciado...";
     /*** FILE_CANCELLED */
-    public static final String  FILE_CANCELLED= "Archivo de anulados recibido. Enrutamiento asíncrono iniciado.";
+    public static final String  FILE_CANCELLED= "Archivo de anulados recibido. iniciado...";
     /*** COMMAND_NULL */
     public static final String  COMMAND_NULL= "Comando null";
     /*** USER_ID_IS_REQUIRED */
