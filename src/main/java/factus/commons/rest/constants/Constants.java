@@ -403,7 +403,7 @@ public final class Constants {
     /*** ID_PACKAGE_IS_REQUIRED */
     public static final String  ID_PACKAGE_IS_REQUIRED= "id_package requerido";
     /*** FILE_RECIVED */
-    public static final String  FILE_RECIVED= "Archivo recibido. iniciado...";
+    public static final String  FILE_RECIVED= "El comprobante se ha procesado correctamente";
     /*** FILE_CANCELLED */
     public static final String  FILE_CANCELLED= "Archivo de anulados recibido. iniciado...";
     /*** COMMAND_NULL */
